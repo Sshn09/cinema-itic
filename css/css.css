@@ -10,6 +10,7 @@ body{
     background-color: #fff;
     line-height: 1.6;
     text-rendering:optimizeLegibility;
+    margin-left: 3%;
 }
 h1,h2,h3,h4,p,ul,ol, figure{
     margin: 0;
@@ -40,5 +41,15 @@ button, input[type="submit"]{
 }
 input,textarea{
     border: 0;
-
+}
+h1 {
+    text-align: center;
+}
+#acceuil {
+    float: left;
+    margin-left: 1%;
+    width: 10%;
+}
+#formulaire {
+    margin-left: 10%;
 }
