@@ -3,6 +3,7 @@
 # Développement d’une page publicitaire pour une chaîne Streaming
 
 Une Agence nous confie la réalisation d’une page publicitaire pour une des premières chaines de diffusion de séries et films en streaming sur le web. La promotion a pour but de conquérir des nouveaux abonnés, en proposant la diffusion de tous les classiques du cinéma. Pour cela nous conseille d’abord d’analyser toutes les fonctionnalités au travers des deux wireframes. Les spécifications pour le fonctionnement de chaque partie ne sont pas définies. La charte graphique est en cours d’élaboration.
+
 Pour commencer vous devez tout simplement mettre en place une structure html sémantique car le contenu de cette publication est destiné à tout public. Penser à produire un code optimisé pour les moteurs de recherche à l’indexation de l’information et prévoir de créer un schéma de données lié : schema.org ou jSon ld.
 
 # Phases de réalisation
