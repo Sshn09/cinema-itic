@@ -42,7 +42,7 @@ button, input[type="submit"]{
 input,textarea{
     border: 0;
 }
-h1 {
+h1, footer {
     text-align: center;
 }
 #acceuil {
@@ -52,3 +52,4 @@ h1 {
 #formulaire {
     margin-left: 10%;
 }
+/* ff*/
