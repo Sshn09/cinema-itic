@@ -42,7 +42,7 @@ button, input[type="submit"]{
 input,textarea{
     border: 0;
 }
-h1, footer {
+h1, footer, form {
     text-align: center;
 }
 #acceuil {
@@ -51,4 +51,20 @@ h1, footer {
 }
 #formulaire {
     margin-left: 10%;
+}
+form div{
+    line-height: 5rem;
+}
+#rep h3{
+    text-align: center;
+}
+#rep p{
+    border:1px;
+    border-style:solid;
+    border-color:black;
+    text-align: center;
+    margin: 1%;
+    padding: 3%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
