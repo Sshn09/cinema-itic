@@ -7,10 +7,11 @@ html{
 body{
     font: 1.6rem 'Raleway',sans-serif;
     margin: 0;
-    background-color: #fff;
+    background-color: #080303;
     line-height: 1.6;
     text-rendering:optimizeLegibility;
     margin-left: 3%;
+    color: #FFFFFF;
 }
 h1,h2,h3,h4,p,ul,ol, figure{
     margin: 0;
@@ -30,8 +31,7 @@ h1,h2,h3,h4,p,ul,ol, figure{
 }
 a{
     text-decoration: none;
-    color: #222;
-    text-align: center;
+    color: #FFFFFF;
 }
 
 button, input[type="submit"]{
@@ -45,6 +45,7 @@ input,textarea{
 }
 h1, footer, form {
     text-align: center;
+    color: #ff0000;
 }
 #acceuil {
     float: left;
@@ -62,7 +63,7 @@ form div{
 #rep p{
     border:1px;
     border-style:solid;
-    border-color:black;
+    border-color:#FFFFFF;
     text-align: center;
     margin: 1%;
     padding: 3%;
@@ -71,4 +72,6 @@ form div{
 }
 #formremp{
     text-align: center;
+    border-style: solid;
+    border-color: #FFFFFF;
 }
