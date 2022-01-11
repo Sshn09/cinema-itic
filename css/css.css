@@ -43,16 +43,9 @@ button, input[type="submit"]{
 input,textarea{
     border: 0;
 }
-h1, footer, form {
+h1, footer, form, a {
     text-align: center;
     color: #ff0000;
-}
-#acceuil {
-    float: left;
-    margin-left: 1%;
-}
-#formulaire {
-    margin-left: 10%;
 }
 form div{
     line-height: 5rem;
