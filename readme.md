@@ -1,6 +1,6 @@
 # Cinema-itic
 
-Voici le site 
+Voici le site : 
 
 https://sshn09.github.io/cinema-itic/
 
