@@ -30,7 +30,7 @@ img{
     object-fit: cover;
 }
 .list_img{
-    max-width: 55rem;
+    max-width: 90rem;
     margin: 4rem auto;
 }
 
@@ -40,7 +40,7 @@ img{
 
 .list_img ul li{
     display: inline-block;
-    margin: .5rem;
+    margin: 1rem;
 }
 a{
     text-decoration: none;
@@ -71,9 +71,9 @@ h1, footer, form, a {
     border-color:#FFFFFF;
     text-align: center;
     margin: 1%;
-    padding: 3%;
-    margin-left: 25%;
-    margin-right: 25%;
+    padding: 2%;
+    margin-left: 19%;
+    margin-right: 20%;
 }
 #formremp{
     text-align: center;    
@@ -85,14 +85,12 @@ header img {
     float: left;
 }
 h1 {
-    border:1px;
-    border-style:solid;
-    border-color:#FFFFFF;
     text-align: center;
-    margin: 2%;
-    padding: 2%;
+    margin: 1%;
+    padding: 1%;
     margin-left: 22%;
     margin-right: 22%;
+    font-size: xxx-large;
 }
 main a{
     background-color: #ff0000;
