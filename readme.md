@@ -29,3 +29,5 @@ Pour commencer vous devez tout simplement mettre en place une structure html sé
 • Revenir sur le développement des fonctionnalités développées dans la première phase.
 
 • Trouver la meilleure méthode pour reproduire le même contrôle des événements : envoie des requête et réponse.
+
+<img src="./asset/Couleur.png" alt="couleur_charte">
