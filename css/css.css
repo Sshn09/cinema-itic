@@ -59,6 +59,7 @@ input,textarea{
 h1, footer, form, a {
     text-align: center;
     color: #ff0000;
+    margin-top: 2%;
 }
 form div{
     line-height: 5rem;
@@ -80,4 +81,28 @@ form div{
     text-align: center;
     border-style: solid;
     border-color: #FFFFFF;
+}
+header img {
+    margin-right: 5rem;
+    margin-left: 5rem;
+    width: 10rem;
+    float: left;
+}
+h1 {
+    border:1px;
+    border-style:solid;
+    border-color:#FFFFFF;
+    text-align: center;
+    margin: 2%;
+    padding: 2%;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+main section a{
+    background-color: #ff0000;
+    color: #fafafa;
+    padding: 1.5rem 9rem;
+}
+#formulaire {
+    text-align: center;
 }
