@@ -7,7 +7,7 @@ html{
 body{
     font: 1.6rem 'Raleway',sans-serif;
     margin: 0;
-    background-color: #080303;
+    background-color: #252525;
     line-height: 1.6;
     text-rendering:optimizeLegibility;
     margin-left: 3%;
@@ -44,7 +44,6 @@ img{
 }
 a{
     text-decoration: none;
-    color: #FFFFFF;
 }
 
 button, input[type="submit"]{
@@ -59,11 +58,10 @@ input,textarea{
     border: 0;
 }
 h1, footer, form, a {
-    text-align: center;
     color: #ff0000;
     margin-top: 2%;
+    text-align: center;
 }
-
 #rep h3{
     text-align: center;
 }
@@ -96,13 +94,14 @@ h1 {
     margin-left: 22%;
     margin-right: 22%;
 }
-main section a{
+main a{
     background-color: #ff0000;
     color: #fafafa;
     padding: 1.5rem 9rem;
-}
-#valider {
     text-align: center;
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
 }
 .form form {
     max-width: 50rem;
