@@ -31,7 +31,7 @@ img{
     object-fit: cover;
 }
 .list_img{
-    max-width: 90rem;
+    max-width: 100rem;
     margin: 4rem auto;
 }
 
