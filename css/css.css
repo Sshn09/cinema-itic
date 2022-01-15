@@ -139,3 +139,6 @@ form {
     display: flex;
     flex-direction: column;
 }
+.form input:invalid {
+    border-color: #ff0000;
+}
