@@ -130,3 +130,12 @@ main a{
     font-size: inherit;
     color: #222;
 }
+form input:not(input[type="submit"]), form select {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    outline: none;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
