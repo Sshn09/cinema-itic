@@ -37,16 +37,14 @@
                 <input type="text" id="prenom" placeholder="Prénom" name="user_prenom" required>
                 <label for="mail">E-mail :</label>
                 <input type="email" id="mail" placeholder="E-mail" name="user_mail" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]{2,4}$">
+                <label for="pass">Password (8 characters minimum):</label>
+                <input type="password" id="pass" placeholder="Mot de passe" name="password" minlength="8" required>
                 <label for="ville">Ville :</label>
-                <select id="pays" name="user_pays">
+                <select id="ville" name="user_ville">
                     <option>Paris</option>
                     <option>Marseille</option>
                     <option>Lille</option>
                     <option>Lyon</option>
-                </select>
-                <label for="pays">Pays :</label>
-                <select id="pays" name="user_pays">
-                    <option>France</option>
                 </select>
             
             <input type="submit" value="Valider">
