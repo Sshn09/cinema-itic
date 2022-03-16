@@ -30,4 +30,6 @@ Pour commencer vous devez tout simplement mettre en place une structure html sé
 
 • Trouver la meilleure méthode pour reproduire le même contrôle des événements : envoie des requête et réponse.
 
+# Charte Graphique
+
 <img src="./asset/Couleur.png" alt="couleur_charte">
