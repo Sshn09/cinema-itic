@@ -1,6 +1,7 @@
 {
     "name":"Stream Cine",
     "short_name":"Stream Cine",
+    "description":"Stream Cine",
     "icons":[{
         "src":"./android-chrome-192x192.png",
         "sizes":"192x192",

@@ -86,7 +86,8 @@ h1, footer, a {
     margin-right: 20%;
 }
 #formremp{
-    text-align: center;    
+    text-align: center;
+    margin-top: 1%;
 }
 header img {
     width: 11rem;
@@ -217,5 +218,8 @@ ul figure:hover figcaption{
     font-size: 2rem;
     z-index: 2;
     cursor: pointer;
+    background-color: transparent;
+}
+#connexion a{
     background-color: transparent;
 }

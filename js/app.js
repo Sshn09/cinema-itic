@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", e => {
         modal.classList.add("modale-active");
         document.querySelector(".modale img").setAttribute("src", image);
         document.querySelector(".modale .desc h3").innerText = title;
-        document.querySelector(".modale .desc p").innerText = desc;
-        document.querySelector(".modale .desc time").innerText = `Sortie : ${dates}`;
+        document.querySelector(".modale .desc p").innerHTML = `<strong>Déscription : </strong>${desc}`;
+        document.querySelector(".modale .desc time").innerHTML = `<strong>Sortie : </strong>${dates}`;
+        document.querySelector(".modale .desc time").setAttribute("datetime", dates);
     };
     for (rows of el) {
         rows.addEventListener("click", open_modal);
