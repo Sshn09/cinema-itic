@@ -57,15 +57,14 @@ a{
 }
 
 button, input[type="submit"]{
-    padding: 1.5rem 9rem;
+    padding: 1.5rem;
+    display: block;
+    width: 20rem;
     background-color: #640707;
     font-size: inherit;
     border: 0;
     color: #FFFFFF;
-    margin-top: 15%;
-}
-input,textarea{
-    border: 0;
+    margin: 1rem auto;
 }
 h1, footer, a {
     color: #FFFFFF;
@@ -91,7 +90,7 @@ h1, footer, a {
     margin-top: 1%;
 }
 header img {
-    width: 11rem;
+    width: 7rem;
     position: absolute;
     top: -1rem;
     left: 30%;
@@ -99,6 +98,7 @@ header img {
 }
 header{
     position: relative;
+    top: 1rem;
 }
 h1 {
     text-align: center;
@@ -112,11 +112,11 @@ h1 {
 main a{
     background-color: #640707;
     color: #fafafa;
-    padding: 1.5rem 9rem;
+    padding: 1.5rem;
     text-align: center;
     display: block;
-    margin-left: 35%;
-    margin-right: 35%;
+    width: 25rem;
+    margin: 1rem auto;
 }
 .form form {
     max-width: 50rem;
