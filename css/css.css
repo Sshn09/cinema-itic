@@ -19,6 +19,8 @@ h1,h2,h3,h4,p,ul,ol, figure{
 }
 *{
     box-sizing: border-box;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 img{
@@ -28,17 +30,12 @@ img{
     vertical-align: middle;
     object-fit: cover;
 }
-.list_img{
-    max-width: 100rem;
-    margin: 4rem auto;
-}
 
 .list_img {
     display: grid;
-    max-width: 80rem;
-    margin: 0 auto;
     grid-template-columns: repeat(4, 3fr);
     gap: 1rem;
+    margin-top: 1rem;
 }
 ul figure .material-icons{
     vertical-align: -.4rem;
@@ -49,6 +46,7 @@ ul figure .material-icons{
 }
 ul figure{
     position: relative;
+
 }
 
 a{
@@ -79,10 +77,7 @@ h1, footer, a {
     border-style:solid;
     border-color:#FFFFFF;
     text-align: center;
-    margin: 1%;
     padding: 2%;
-    margin-left: 19%;
-    margin-right: 20%;
 }
 #formremp{
     text-align: center;
@@ -116,10 +111,6 @@ main a{
     display: block;
     width: 25rem;
     margin: 1rem auto;
-}
-.form form {
-    max-width: 50rem;
-    margin: 0 auto;
 }
 .form form input, .form form label{
     display: block;
