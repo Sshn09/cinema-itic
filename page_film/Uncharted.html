@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulaire </title>
+    <link rel="stylesheet" href="../css/css.css" media="screen" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../asset/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../asset/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../asset/favicon-16x16.png">
+    <link rel="manifest" href="../asset/site.webmanifest">
+</head>
+<body itemscope itemtype="https://schema.org/Movie">
+
+    <header> 
+        <a href="../index.html"><img src ="../asset/logo5.png" alt="index"></a>
+        <h1> Stream Cine </h1>
+    </header>
+
+    <main>
+        <figure class="film-one-page" itemscope itemtype="https://schema.org/Movie">
+            <img itemprop="image" src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sqLowacltbZLoCa4KYye64RvvdQ.jpg" alt="film-image">
+            <figcaption class="film-info-page">
+                <h2 itemprop="name"> <strong>Uncharted</strong></h2>
+                <time itemprop="datePublished" class="date"></div> 16/02/2022</time>
+                <p itemprop="keywords" class="genre">-</div> Action, Aventure</p>
+                <time itemprop="duration" class="duree">-</div> 1h56</time>
+                <p itemprop="description" class="description">
+                   <strong>Description :</strong></div> Nathan Drake, voleur astucieux et intrépide, est recruté par le chasseur de trésors chevronné Victor « Sully » Sullivan pour retrouver la fortune de Ferdinand Magellan, disparue il y a 500 ans. Ce qui ressemble d’abord à un simple casse devient finalement une course effrénée autour du globe pour s’emparer du trésor avant l’impitoyable Moncada, qui est persuadé que sa famille est l’héritière légitime de cette fortune. Si Nathan et Sully réussissent à déchiffrer les indices et résoudre l’un des plus anciens mystères du monde, ils pourraient rafler la somme de 5 milliards de dollars et peut-être même retrouver le frère de Nathan, disparu depuis longtemps… mais encore faudrait-il qu’ils apprennent à travailler ensemble.</p>
+                <p itemprop="director" class="director"><strong>Director :</strong></div> Ruben Fleischer</p>
+            </figcaption>
+        </figure>
+    </main>
+    
+    <footer>
+        <p>&copy; - Stream Cine - All rights reserved for educational purposes only</p>
+    </footer>
+</body>
+<style>
+.film-one-page{
+    max-width: 80rem;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.film-one-page img{
+    max-width: 100%;
+    display: block;
+
+}
+.film-one-page .film-info-page{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+
+}
+.film-one-page .film-info-page h2, .film-one-page .film-info-page p, .film-one-page .film-info-page time{
+    margin-bottom: 1rem;
+}
+.film-one-page .film-info-page h2{
+    text-align: center;
+}
+</style>
+</html>

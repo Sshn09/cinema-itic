@@ -144,6 +144,17 @@ form {
     border-color: #ff0000;
 }
 
+/* one page film*/
+
+h2 h4 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 200;
+    text-align: center;
+    display: flex;
+}
+
 
 ul figure figcaption{
         display: grid;
