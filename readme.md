@@ -1,8 +1,6 @@
 # Cinema-itic
 
-Voici le site : 
-
-https://sshn09.github.io/cinema-itic/
+[Voici le site](https://sshn09.github.io/cinema-itic/)
 
 # Développement d’une page publicitaire pour une chaîne Streaming
 
