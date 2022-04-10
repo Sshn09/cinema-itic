@@ -28,6 +28,12 @@ Pour commencer vous devez tout simplement mettre en place une structure html sé
 
 • Trouver la meilleure méthode pour reproduire le même contrôle des événements : envoie des requête et réponse.
 
+# Maquette 
+
+<img src="./asset/readme/index.png" alt="index">
+
+<img src="./asset/readme/formulaire.png" alt="formulaire">
+
 # Charte Graphique
 
-<img src="./asset/Couleur.png" alt="couleur_charte">
+<img src="./asset/readme/Couleur.png" alt="couleur_charte">
