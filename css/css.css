@@ -220,3 +220,12 @@ ul figure:hover figcaption{
 #connexion a{
     background-color: transparent;
 }
+.modale .desc .vplus{
+    display: block;
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--color-textclassic);
+    padding: 0.2rem;
+    background-color: #640707;
+    color: #FFFFFF;
+}
