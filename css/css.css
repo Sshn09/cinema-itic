@@ -46,7 +46,6 @@ ul figure .material-icons{
 }
 ul figure{
     position: relative;
-
 }
 
 a{
@@ -227,4 +226,21 @@ ul figure:hover figcaption{
     padding: 0.2rem;
     background-color: #640707;
     color: #FFFFFF;
+}
+
+.list_film {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.list_film li:hover{
+    color: rgba(187, 187, 187, 1);
+    transition: 1s;
+}
+ul figure{
+    position: relative;
+}
+.list_film a{
+    background-color: transparent;
 }
