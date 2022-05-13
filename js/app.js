@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", e => {
         let dates = this.dataset.dates;
         let genre = this.dataset.types;
         let duree = this.dataset.times;
+        let links = this.dataset.link;
 
         modal.classList.add("modale-active");
         document.querySelector(".modale img").setAttribute("src", image);
@@ -26,6 +27,9 @@ document.addEventListener("DOMContentLoaded", e => {
         document.querySelector(".modale .desc .genre").innerHTML = `<strong>Genre : </strong>${genre}`;
         document.querySelector(".modale .desc .duree").innerHTML = `<strong>Duree : </strong>${duree}`;
         document.querySelector(".modale .desc .duree").setAttribute("datetime", duree);
+        document.querySelector(".modale .desc .duree").setAttribute("datetime", duree);
+        document.querySelector("figure .vplus").setAttribute("href",links);
+
     };
     for (rows of el) {
         rows.addEventListener("click", open_modal);

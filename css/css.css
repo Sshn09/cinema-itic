@@ -85,7 +85,7 @@ h1, footer, a {
 }
 header img {
     width: 7rem;
-    position: static;
+    position: absolute;
     top: -1rem;
     left: 30%;
     z-index: 1;
@@ -182,6 +182,7 @@ ul figure figcaption{
     }
 ul figure:hover figcaption{
     transform: scale(1);
+    cursor: pointer;
 }
  .modale{
     max-width: 80rem;
@@ -234,13 +235,18 @@ ul figure:hover figcaption{
 #connexion a{
     background-color: transparent;
 }
-.modale .desc .vplus{
+.modale .vplus{
     display: block;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0;
     padding: 0.2rem;
     background-color: #640707;
     color: #FFFFFF;
+    grid-column: 3 / 1;
+    z-index: 3;
+    width: 100%;
+    line-height: 3.5rem;
+    border-radius: .4rem;
 }
 
 .list_film {
@@ -258,4 +264,75 @@ ul figure{
 }
 .list_film a{
     background-color: transparent;
+}
+/* single page synopsis*/
+.film-one-page{
+    max-width: 80rem;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.film-one-page img{
+    max-width: 100%;
+    display: block;
+
+}
+.film-one-page .film-info-page{
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: justify;
+}
+.film-one-page .film-info-page h2, .film-one-page .film-info-page p, .film-one-page .film-info-page time{
+    margin-bottom: 1rem;
+}
+.film-one-page .film-info-page h2{
+    text-align: center;
+}
+.sous-titre{
+    display: flex;
+}
+
+/* media queris */
+@media screen and (max-width: 100.0rem){ /* mode portrait */
+    body{
+        margin: 0 1%;
+    }
+    header img {
+        width: 7.0rem;
+        position: static;
+        
+    }
+    #rep p{
+        text-align: justify;
+    }
+    .modale{
+        width: 100%;
+    }
+    .film-one-page{
+        
+        display: block;
+     
+    }
+    .film-one-page p{
+        padding: .5rem;
+    }
+    
+}
+@media screen and (orientation: landscape){ /* mode paysage */
+    header img {
+        width: 7.0rem;
+        position: absolute;
+        
+    }
+    #rep p{
+        text-align: center;
+    }
+    .modale{
+        max-width: 80rem;
+    }
 }
