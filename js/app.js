@@ -14,12 +14,18 @@ document.addEventListener("DOMContentLoaded", e => {
         let title = this.dataset.title;
         let desc = this.dataset.description;
         let dates = this.dataset.dates;
+        let genre = this.dataset.types;
+        let duree = this.dataset.times;
+
         modal.classList.add("modale-active");
         document.querySelector(".modale img").setAttribute("src", image);
         document.querySelector(".modale .desc h3").innerText = title;
         document.querySelector(".modale .desc p").innerHTML = `<strong>Déscription : </strong>${desc}`;
         document.querySelector(".modale .desc time").innerHTML = `<strong>Sortie : </strong>${dates}`;
         document.querySelector(".modale .desc time").setAttribute("datetime", dates);
+        document.querySelector(".modale .desc .genre").innerHTML = `<strong>Genre : </strong>${genre}`;
+        document.querySelector(".modale .desc .duree").innerHTML = `<strong>Duree : </strong>${duree}`;
+        document.querySelector(".modale .desc .duree").setAttribute("datetime", duree);
     };
     for (rows of el) {
         rows.addEventListener("click", open_modal);
