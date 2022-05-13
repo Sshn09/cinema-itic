@@ -298,7 +298,7 @@ ul figure{
 }
 
 /* media queris */
-@media screen and (max-width: 100.0rem){ /* mode portrait */
+@media screen and (max-width: 80.0rem){ /* mode portrait */
     body{
         margin: 0 1%;
     }
@@ -334,5 +334,10 @@ ul figure{
     }
     .modale{
         max-width: 50rem;
+    }
+    .film-one-page{
+        
+        display: grid;
+     
     }
 }
