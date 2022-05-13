@@ -61,6 +61,7 @@ button, input[type="submit"]{
     border: 0;
     color: #FFFFFF;
     margin: 1rem auto;
+    line-height: 4.5rem;
 }
 h1, footer, a {
     color: #FFFFFF;
@@ -84,7 +85,7 @@ h1, footer, a {
 }
 header img {
     width: 7rem;
-    position: absolute;
+    position: static;
     top: -1rem;
     left: 30%;
     z-index: 1;
@@ -92,6 +93,7 @@ header img {
 header{
     position: relative;
     top: 1rem;
+    text-align: center;
 }
 h1 {
     text-align: center;
@@ -111,6 +113,9 @@ main a{
     width: 25rem;
     margin: 1rem auto;
 }
+
+/* Formulaire */
+
 .form form input, .form form label{
     display: block;
 }
@@ -118,12 +123,17 @@ main a{
     margin-top: 2rem;
     color: #FFFFFF;
     text-align: left;
+    width: 100%;
 }
 
 .form form input{
     border: .1rem solid black;
     padding: 1rem;
     border-radius: .5rem;
+    width: 100%;
+}
+.form select{
+    text-align: center;
     width: 100%;
 }
 .form form [placeholder] {
@@ -140,7 +150,7 @@ form {
     flex-direction: column;
 }
 .form input:invalid {
-    border-color: #ff0000;
+    border: #ff0000;
 }
 
 /* one page film*/
@@ -154,6 +164,7 @@ h2 h4 {
     display: flex;
 }
 
+/* Modals */
 
 ul figure figcaption{
         display: grid;
@@ -173,7 +184,7 @@ ul figure:hover figcaption{
     transform: scale(1);
 }
  .modale{
-    max-width: 20rem;
+    max-width: 80rem;
     padding: 1rem;
     position: fixed;
     top: 50%;
@@ -185,6 +196,9 @@ ul figure:hover figcaption{
     opacity: 0;
     cursor: pointer;
     transition: all 500ms ease-in-out;    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
 }
 .modale .desc{
     position: static;
@@ -203,6 +217,7 @@ ul figure:hover figcaption{
     background-color: #222;
     color: #fff;
     padding: 1rem;
+    text-align: center;
 }
 .modale .desc p :is(time){
     padding: 1rem;
